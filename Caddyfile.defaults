@@ -1,0 +1,11 @@
+localhost:8104 {
+	# reverse_proxy 127.0.0.1:8103
+	reverse_proxy localhost:8103
+	# tls internal
+}
+
+localhost:8106 {
+	# reverse_proxy 127.0.0.1:3000
+	reverse_proxy localhost:3000
+	# tls internal
+}

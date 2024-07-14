@@ -62,3 +62,7 @@ medplum-server.tar.gz
 packages/agent/*agent-*-linux*
 packages/agent/sea-prep.blob
 packages/agent/src/upgrader-logs-*.txt
+
+# Private config
+packages/server/medplum.config.json
+Caddyfile
