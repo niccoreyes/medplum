@@ -16,10 +16,10 @@ check_port_kill() {
 # stop Caddy first
 sudo caddy stop
 
-check_port_kill 3000
-check_port_kill 5173
-check_port_kill 8103
-check_port_kill 2019
+# check_port_kill 3000
+# check_port_kill 5173
+# check_port_kill 8103
+# check_port_kill 2019
 
 # run Medplum FHIR server
 cd packages/server
