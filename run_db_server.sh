@@ -13,8 +13,6 @@ check_port_kill() {
     fi
 }
 
-# stop Caddy first
-sudo caddy stop
 
 # check_port_kill 3000
 # check_port_kill 5173
@@ -27,9 +25,4 @@ npm run dev&
 
 # run Medplum App react
 cd ../app
-npm run dev&
-
-# Run Caddy
-sudo systemctl stop caddy
-cd ../../../
-sudo caddy run
+npm run dev
